@@ -171,7 +171,7 @@ console.log("Coding Question 12 yay!!!!!!")
 function willBuyDrink(isHotOutside, moneyInPocket){
     console.log("Parameters",isHotOutside,moneyInPocket);
     let buyDrink = isHotOutside === true && moneyInPocket > 10.50;
-    console.log("buy a goofball?", buyDrink);
+    console.log("buy a drink goofball?", buyDrink);
     return buyDrink;
         }
     willBuyDrink(true, 11.00);
